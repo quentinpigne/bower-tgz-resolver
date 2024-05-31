@@ -1,0 +1,25 @@
+{
+  "name": "@quentinpigne/bower-tgz-resolver",
+  "version": "0.1.0",
+  "description": "Bower resolver for tgz packages",
+  "main": "./lib/index.js",
+  "homepage": "https://github.com/quentinpigne/bower-tgz-resolver",
+  "bugs": "https://github.com/quentinpigne/bower-tgz-resolver/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quentinpigne/bower-tgz-resolver.git"
+  },
+  "keywords": [
+    "bower-resolver"
+  ],
+  "author": {
+    "name": "Quentin Pigné",
+    "email": "quentin.pigne@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "decompress": "4.2.1",
+    "decompress-targz": "4.1.1",
+    "tmp": "0.2.3"
+  }
+}
